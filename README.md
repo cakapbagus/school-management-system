@@ -104,7 +104,7 @@ npm run build
 npm start
 ```
 
-Open `localhost:3000` in browser
+Open `http://localhost:3000` in browser
 
 ### Using Docker
 
@@ -132,7 +132,7 @@ cd school-management-system
 docker compose up --build
 ```
 
-4. Open `<SERVER_IP>:3000`
+4. Open `http://<SERVER_IP>:3000`
 
 ---
 
