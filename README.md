@@ -9,12 +9,6 @@
     <code><em>> School management system for tracking students, teachers, and school</em></code>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/cakapbagus/school-management-system?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/cakapbagus/school-management-system?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/cakapbagus/school-management-system?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/cakapbagus/school-management-system?style=flat&color=0080ff" alt="repo-language-count">
-</p>
-<p align="center">
 		<em>Built with the tools and technologies:</em>
 </p>
 <p align="center">
