@@ -29,15 +29,13 @@
 
 ##### Table of Contents
 
--   [ Overview](#-overview)
--   [ Features](#-features)
--   [ Getting Started](#-getting-started)
-    -   [ Manual Build](#-manual-build)
-    -   [ Using Docker](#-using-docker)
--   [ Project Roadmap](#-project-roadmap)
--   [ Contributing](#-contributing)
--   [ License](#-license)
--   [ Acknowledgments](#-acknowledgments)
+-   [ Overview](#overview)
+-   [ Features](#features)
+-   [ Getting Started](#getting-started)
+    -   [ Manual Build](#manual-build)
+    -   [ Using Docker](#using-docker)
+-   [ Contributing](#contributing)
+-   [ License](#license)
 
 ---
 
@@ -54,6 +52,33 @@
 ---
 
 ## Getting Started
+
+Before build or deploy any of these, you must have [Clerk](https://clerk.com/) and [Cloudinary](https://cloudinary.com/) account to get API KEY.
+
+<details closed>
+<summary>Clerk</summary>
+<ol>
+    <li>Create an account</li>
+    <li>Sign and go to the <a href='https://dashboard.clerk.com/' title='Clerk Dashboard'>Dashboard</a></li>
+    <li>Create an application</li>
+    <li>Enable only <code>username</code> for authentication</li>
+    <li>Create a user & manage newly created user in <code>Users</code></li>
+    <li>Add <code>{ "role": "admin" }</code> inside <code>User metadata -> Public</code></li>
+    <li>Customize session token in <code>Configure -> Sessions</code>, add <code>{ "metadata": "{{user.public_metadata}}" }</code>
+    <li>Copy your API_KEY into .env file from <code>Configure -> API Keys</code></li>
+</ol>
+</details>
+
+<details closed>
+<summary>Cloudinary</summary>
+<ol>
+    <li>Create an account</li>
+    <li>Sign and go to the <a href='https://console.cloudinary.com/' title='Cloudinary Console'>Console</a></li>
+    <li>Copy your API_KEY into .env file from <code>Settings -> API Keys</code></li>
+</ol>
+</details>
+
+---
 
 ### Manual Build
 
@@ -99,6 +124,8 @@ npm start
 ```
 
 Open `http://localhost:3000` in browser
+
+---
 
 ### Using Docker
 
@@ -178,11 +205,5 @@ Contributions are welcome! Here are several ways you can contribute:
 ## License
 
 This project is protected under the [MIT](https://choosealicense.com/licenses/mit/) License.
-
----
-
-## Acknowledgments
-
--   List any resources, contributors, inspiration, etc. here.
 
 ---
