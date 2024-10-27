@@ -1,17 +1,17 @@
 # Use Node.js as the base image
-FROM node:18
+FROM node:20
+
+# Create an app directory
+RUN mkdir -p /app
 
 # Set the working directory inside the container
 WORKDIR /app
 
-# Copy package.json and package-lock.json files
-COPY package*.json ./
+# Copy application into the container
+COPY . .
 
 # Install dependencies
-RUN npm install
-
-# Copy the rest of the application code
-COPY . .
+RUN npm install --omit=dev
 
 # Generate Database
 RUN npx prisma migrate dev --name init
