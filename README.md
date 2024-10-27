@@ -162,7 +162,7 @@ docker compose up --build
 Contributions are welcome! Here are several ways you can contribute:
 
 -   **[Report Issues](https://github.com/cakapbagus/school-management-system/issues)**: Submit bugs found or log feature requests for the `school-management-system` project.
--   **[Submit Pull Requests](https://github.com/cakapbagus/school-management-system/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+-   **[Submit Pull Requests](https://github.com/cakapbagus/school-management-system/pulls)**: Review open PRs, and submit your own PRs.
 -   **[Join the Discussions](https://github.com/cakapbagus/school-management-system/discussions)**: Share your insights, provide feedback, or ask questions.
 
 <details closed>
